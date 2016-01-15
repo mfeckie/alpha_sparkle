@@ -12,7 +12,7 @@ Once that's done execute
 
 ## Running it
 
-`./go.sh {your_character}`
+`./go.sh <your_character>`
 
 
 ## Testing
