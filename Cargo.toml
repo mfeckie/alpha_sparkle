@@ -1,0 +1,4 @@
+[package]
+name = "alpha_sparkle"
+version = "0.1.0"
+authors = ["Martin Feckie <mfeckie@gmail.com>"]
