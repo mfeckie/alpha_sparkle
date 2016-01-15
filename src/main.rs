@@ -80,16 +80,26 @@ fn b_is_two_test() {
 }
 
 #[test]
+fn z_is_twenty_six() {
+    assert_eq!(letter_of_alphabet("Z".to_owned()), 26);
+}
+
+#[test]
 fn alphabetic_test() {
     assert!(!not_alphabetic(Some('a')));
 }
 
 #[test]
 fn non_alphabetic_test() {
-    assert!(not_alphabetic(Some('^')))
+    assert!(not_alphabetic(Some('^')));
 }
 
 #[test]
 fn padding_for_b_test() {
-    assert_eq!(internal_padding(1), 1)
+    assert_eq!(internal_padding(1), 1);
+}
+
+#[test]
+fn padding_for_z_test() {
+    assert_eq!(internal_padding(26), 51);
 }

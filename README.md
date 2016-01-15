@@ -8,13 +8,18 @@ You will need Rust installed on your system get it from [https://www.rust-lang.o
 
 Once that's done execute
 
-`cargo build --release`
+`cargo build --release` 
 
 ## Running it
 
 `./go.sh {your_character}`
 
 
+## Testing
+
+To execute the tests
+
+`cargo test`
 
 
 
